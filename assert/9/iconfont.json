@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "318454",
+      "name": "glass",
+      "font_class": "glass",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "4765743",
+      "name": "earth",
+      "font_class": "earth",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
+      "icon_id": "6150965",
+      "name": "gift",
+      "font_class": "gift",
+      "unicode": "e771",
+      "unicode_decimal": 59249
+    },
+    {
+      "icon_id": "7213602",
+      "name": "Graduate",
+      "font_class": "Graduate",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    }
+  ]
+}

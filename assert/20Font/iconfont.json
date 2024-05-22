@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11132360",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "11466681",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "15838614",
+      "name": "map-filling",
+      "font_class": "map-filling",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    }
+  ]
+}

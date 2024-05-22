@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1715574876088') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-glass:before {
+  content: "\e666";
+}
+
+.icon-earth:before {
+  content: "\e781";
+}
+
+.icon-gift:before {
+  content: "\e771";
+}
+
+.icon-Graduate:before {
+  content: "\e684";
+}
+
