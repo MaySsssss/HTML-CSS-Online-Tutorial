@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2c3e50;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;
+    height: 400px;
+    background: black;
+}
+.about {
+    color: white;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.about h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.figure {
+    width: 100%;
+    height: 100%;
+}
+
+.figure2 {
+    width: 100%;
+    height: 100%;
+    background: url("../assert/11/bg.webp");
+    background-size: cover;
+}
+.figure:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: url("../assert/11/bg.webp");
+    background-size: cover;
+    transform-origin: bottom;
+    transition: .5s;
+}
+.box:hover .figure:before {
+    transform: rotateX(90deg) translateY(50%);
+}
+
+.figure:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url("../assert/11/bg.webp");
+    background-size: cover;
+    transform-origin: top;
+    transition: .5s;
+    background-position: 320px;
+}
+.box:hover .figure:after {
+    transform: rotateX(90deg) translateY(-50%);
+}

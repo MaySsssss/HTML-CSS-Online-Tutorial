@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2d2b2b;
+}
+ul {
+    margin: 300px auto;
+    width: 50%;
+    /* display: flex; */
+}
+ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+ul li div {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    font-size: .8em;
+}
+ul li div .title {
+    font-size: 1.5em;
+    color: white;
+}
+ul li div p {
+    margin: 0;
+}
+ul li div.iconfont{
+    font-size: 4em;
+    transition: .5s;
+}
+ul li div.text {
+    opacity: 0;
+    transition: .5s;
+}
+ul li:hover div.text{
+    opacity: 1;
+    transform: translateY(5px);
+}
+ul li:hover div.iconfont {
+    transform: translateY(-5px) scale(.7);
+}

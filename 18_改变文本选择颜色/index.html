@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <h1>How to Change Text Selection Color</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda est impedit inventore ipsam labore laboriosam, unde! Ad alias, eligendi iusto magnam minus, mollitia perspiciatis quam, recusandae saepe sunt voluptates.</p>
+    </div>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+        }
+        h1::selection {
+            background: #f00;
+            color: yellow;
+        }
+        p::selection {
+            background: black;
+            color: white;
+        }
+    </style>
+</body>
+</html>
